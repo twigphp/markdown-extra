@@ -11,6 +11,7 @@
 
 namespace Twig\Extra\Markdown;
 
+use League\CommonMark\CommonMarkConverter;
 use Michelf\MarkdownExtra;
 
 class MichelfMarkdown implements MarkdownInterface
