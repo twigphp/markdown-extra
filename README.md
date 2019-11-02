@@ -7,5 +7,5 @@ This package is a Twig extension that provides the following:
 
  * [`html_to_markdown`][2] filter: generates Markdown from an HTML block.
 
-[1]: https://twig.symfony.com/doc/2.x/filters/markdown_to_html.html
-[2]: https://twig.symfony.com/doc/2.x/filters/html_to_markdown.html
+[1]: https://twig.symfony.com/doc/filters/markdown_to_html.html
+[2]: https://twig.symfony.com/doc/filters/html_to_markdown.html
