@@ -81,6 +81,7 @@ EOF
 EOF
             , "<h1>Hello</h1>\n+<p>Great!</p>"],
             ["{{ include('html')|markdown_to_html }}", "<h1>Hello</h1>\n+<p>Great!</p>"],
+            ['{{ null|markdown_to_html }}', ""]
         ];
     }
 }

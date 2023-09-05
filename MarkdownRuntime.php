@@ -20,8 +20,12 @@ class MarkdownRuntime
         $this->converter = $converter;
     }
 
-    public function convert(string $body): string
+    public function convert(?string $body): string
     {
+        if (empty($body)) {
+            return '';
+        }
+
         // remove indentation
         if ($white = substr($body, 0, strspn($body, " \t\r\n\0\x0B"))) {
             $body = preg_replace("{^$white}m", '', $body);
